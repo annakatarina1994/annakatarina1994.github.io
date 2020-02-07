@@ -1,32 +1,47 @@
 * {
     padding: 0;
     margin: 0;
-    top: 0px;
   }
 
   a:link{
-  background-color: rgb(252, 240, 82);
-  color:rgb(32, 23, 73);
+  background-color: rgb(22, 18, 39);
+  color: rgb(247, 169, 26);
+  border:ridge;
+  border-color: rgb(247, 169, 26);
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
-  display:inline-block;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-variant: small-caps;
-  font-size: 24px;
-  font-weight: bold;
   border-radius: 48%;
   line-height: 100%;
   position: relative;
-  top: 80px;
-  left: 30px;
-  margin: 3px;
-  border:groove;
+  display:inline-flex;
+  justify-content: space-around, center;
+  top: 70px;
+  left: 40px;
+  }
+
+  a:visited{
+    background-color: rgb(22, 18, 39);
+    color: rgb(247, 169, 26);
+    border:ridge;
+    border-color: rgb(247, 169, 26);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 48%;
+    line-height: 100%;
+    position: relative;
+    display:inline-flex;
+    justify-content: space-around, center;
+    top: 70px;
+    left: 40px;
   }
 
   a:hover{
-    background-color: rgb(32, 23, 73);
-    color:rgb(247, 169, 26);
+    background-color: rgb(247, 169, 26);
+    color:rgb(22, 18, 39);
+    border: ridge;
+    border-color:rgb(22, 18, 39);
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -34,10 +49,10 @@
   }
   
   nav {
-    background-color: rgb(32, 23, 73);
+    background-color: rgb(22, 18, 39);
     height: 100vh;
     width: 170px;
-    position: fixed;
+    position: relative;
     transform: translateX(-150px);
     transition: transform 0.3s ease-in-out;
     text-align: justify;
@@ -45,7 +60,7 @@
   
   nav:after {
     content: '';
-    background: rgb(32, 23, 73);
+    background: rgb(22, 18, 39);
     height: 80px;
     width: 80px;
     position: absolute;
@@ -91,8 +106,8 @@ h1{
     padding: 25px;
     margin: 10px;
     position: fixed;
-    top: 135px;
-    right: 487px;
+    top: 150px;
+    right: 505px;
     text-align: center;
     z-index: 1;
 }
@@ -101,8 +116,8 @@ h1{
     padding: 25px;
     margin: 10px;
     position: fixed;
-    top: 210px;
-    right: 490px;
+    top: 220px;
+    right: 505px;
     text-align: center;
     z-index: 1;
 }

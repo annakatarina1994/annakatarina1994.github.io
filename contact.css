@@ -77,13 +77,25 @@ body{
     background-image: url(https://images.squarespace-cdn.com/content/v1/5687cbef5a56682e0b7e1f92/1453044073995-9SRTW5JQXYF84BI79PFR/ke17ZwdGBToddI8pDm48kBL7y0DpH_e0bbX7enFn0u57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UT4ke-2faLbDJ2EQYXZquaaYAmln24LeHvojPJ-RAjfURBpFeAJxHLqEa5Otf4mhGw/Julia_Hamilton_Quantum_Flux.jpg?format=2500w);
     background-repeat: no-repeat;
     background-size: 1500px 1300px;
-    text-align: right;
 }
 
 h1{
-    text-align:center;
+    padding: 14px 25px;
+    margin: 0 auto;
+    height: 52px;
+    width: 2000px;
+    line-height: 2rem;
+    position: fixed;
+    top: 40px;
+    right: 0px;
+    justify-content: right;
+    z-index: -1;
+    text-indent: 1630px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:50px;
     font-variant: small-caps;
-    font-size: 45px;
+    color: rgb(247, 169, 26);
+    background-color: rgba(39, 31, 77, 0.35);
 }
 
 .contact{
@@ -93,8 +105,8 @@ h1{
     padding: 30px;
     margin: 10px;
     position: fixed;
-    right: 200px;
-    top: 150px;
+    right: 150px;
+    top: 225px;
     color: rgb(32, 23, 73);
     text-align: right;
     font-size: 18px;
@@ -107,7 +119,7 @@ h1{
     margin: 10px;
     position: fixed;
     top: 150px;
-    right: 505px;
+    right: 450px;
     text-align: center;
     z-index: 2;
 }
@@ -117,7 +129,7 @@ h1{
     margin: 10px;
     position: fixed;
     top: 220px;
-    right: 505px;
+    right: 450px;
     text-align: center;
     z-index: 2;
 }
@@ -127,7 +139,7 @@ h1{
     margin: 10px;
     position: fixed;
     top: 290px;
-    right: 505px;
+    right: 450px;
     text-align: center;
     z-index: 2;
 }

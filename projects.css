@@ -94,24 +94,41 @@ h1{
 
 h2{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(22, 18, 39);
+    font-variant: small-caps;
+    font-weight: bolder;
 }
 
 .petshelter{
-    padding: 50px;
+    padding: 30px;
     margin: 20px;
     width: 300px;
     position: fixed;
-    top: 150px;
+    top: 110px;
     right: 100px;
+    border: ridge;
+    border-width: 2px;
+    border-color: rgb(22, 18, 39);
+    background-color: rgb(228, 228, 228);
+    color: rgb(22, 18, 39);
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .hospital{
-    padding: 50px;
+    padding: 30px;
     margin: 20px;
     width: 300px;
     position: fixed;
-    top: 150px;
-    right: 500px;
+    top: 110px;
+    right: 550px;
+    border: ridge;
+    border-width: 2px;
+    border-color: rgb(22, 18, 39);
+    background-color: rgb(228, 228, 228);
+    color: rgb(22, 18, 39);
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body{

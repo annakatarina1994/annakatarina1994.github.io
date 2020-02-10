@@ -97,6 +97,29 @@ h2{
     color:rgb(22, 18, 39);
     font-variant: small-caps;
     font-weight: bolder;
+    text-align: center;
+}
+
+img{
+    margin: 0 auto;
+    padding: 0px;
+    transition: transform .2s;
+}
+
+img:hover{
+    transform: scale(1.5);
+}
+
+.shelterlink{
+    position: fixed;
+    top: 130px;
+    right: 230px;
+}
+
+.hospitallink{
+    position: fixed;
+    top: 130px;
+    right: 675px;
 }
 
 .petshelter{

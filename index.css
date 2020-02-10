@@ -82,12 +82,12 @@ h1{
   position: fixed;
   top: 40px;
   right:0px;
-  text-indent: 1600px;
+  text-indent: 1580px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size:50px;
+  font-size:54px;
   font-variant: small-caps;
-  color: rgb(247, 169, 26);
-  background-color: rgba(39, 31, 77, 0.35);
+  color: rgb(255, 238, 6);
+  background-color: rgba(39, 31, 77, 0.4);
   justify-content: right;
   z-index: -1;
 }

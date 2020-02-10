@@ -92,6 +92,27 @@ h1{
     z-index: -1;
 }
 
+.pictures{
+  display: grid;
+  width: 500px;
+  height: 480px;
+  grid-template-columns: 240px 240px;
+  grid-gap: 5px;
+  position: fixed;
+  top: 130px;
+  right: 100px;
+}
+
+img{
+  margin: 0 auto;
+  padding: 0px;
+  transition: transform .2s;
+}
+
+img:hover{
+  transform: scale(2);
+}
+
 body{
     background-image: url(https://images.squarespace-cdn.com/content/v1/5687cbef5a56682e0b7e1f92/1453044073995-9SRTW5JQXYF84BI79PFR/ke17ZwdGBToddI8pDm48kBL7y0DpH_e0bbX7enFn0u57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UT4ke-2faLbDJ2EQYXZquaaYAmln24LeHvojPJ-RAjfURBpFeAJxHLqEa5Otf4mhGw/Julia_Hamilton_Quantum_Flux.jpg?format=2500w);
     background-repeat: no-repeat;

@@ -73,6 +73,12 @@
     transform: translateX(0px);
   }
 
+  body{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5687cbef5a56682e0b7e1f92/1453044073995-9SRTW5JQXYF84BI79PFR/ke17ZwdGBToddI8pDm48kBL7y0DpH_e0bbX7enFn0u57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UT4ke-2faLbDJ2EQYXZquaaYAmln24LeHvojPJ-RAjfURBpFeAJxHLqEa5Otf4mhGw/Julia_Hamilton_Quantum_Flux.jpg?format=2500w);
+    background-repeat: no-repeat;
+    background-size: 1500px 1300px;
+  }
+
 h1{
     padding: 14px 25px;
     margin: 0 auto;
@@ -111,12 +117,6 @@ img{
 
 img:hover{
   transform: scale(2);
-}
-
-body{
-    background-image: url(https://images.squarespace-cdn.com/content/v1/5687cbef5a56682e0b7e1f92/1453044073995-9SRTW5JQXYF84BI79PFR/ke17ZwdGBToddI8pDm48kBL7y0DpH_e0bbX7enFn0u57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UT4ke-2faLbDJ2EQYXZquaaYAmln24LeHvojPJ-RAjfURBpFeAJxHLqEa5Otf4mhGw/Julia_Hamilton_Quantum_Flux.jpg?format=2500w);
-    background-repeat: no-repeat;
-    background-size: 1500px 1300px;
 }
 
 p{

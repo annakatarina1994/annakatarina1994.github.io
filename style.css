@@ -76,7 +76,8 @@
   body{
     background-image: url(https://images.squarespace-cdn.com/content/v1/5687cbef5a56682e0b7e1f92/1453044073995-9SRTW5JQXYF84BI79PFR/ke17ZwdGBToddI8pDm48kBL7y0DpH_e0bbX7enFn0u57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UT4ke-2faLbDJ2EQYXZquaaYAmln24LeHvojPJ-RAjfURBpFeAJxHLqEa5Otf4mhGw/Julia_Hamilton_Quantum_Flux.jpg?format=2500w);
     background-repeat: no-repeat;
-    background-size: 1500px 1300px;
+    background-size: cover;
+    /* background-size: 1500px 1300px; */
 }
 
 h1{
@@ -112,5 +113,51 @@ h1{
   font-size: 12px;
   font-weight: bolder;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact{
+  width: 320px;
+  border: 2px ridge rgb(32, 23, 73);
+  background-color:rgb(228, 228, 228);
+  padding: 30px;
+  margin: 10px;
+  position: fixed;
+  right: 150px;
+  top: 225px;
+  color: rgb(32, 23, 73);
+  text-align: right;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.github{
+  padding: 25px;
+  margin: 10px;
+  position: fixed;
+  top: 150px;
+  right: 450px;
+  text-align: center;
+  z-index: 2;
+}
+
+.linkedin{
+  padding: 25px;
+  margin: 10px;
+  position: fixed;
+  top: 220px;
+  right: 450px;
+  text-align: center;
+  z-index: 2;
+}
+
+.email{
+  padding: 25px;
+  margin: 10px;
+  position: fixed;
+  top: 290px;
+  right: 450px;
+  text-align: center;
+  z-index: 2;
 }
 

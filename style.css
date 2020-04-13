@@ -138,7 +138,11 @@ h1{
   padding: 25px;
   margin: 10px;
   z-index: 2;
-  align-items: center;
+  text-align: center;
+}
+
+.gitA{
+  margin: auto;
 }
 
 .linkedin{

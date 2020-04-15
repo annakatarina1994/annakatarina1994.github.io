@@ -4,6 +4,7 @@
   }
 
   .sideBarLinks:link{
+  margin-top: 13px;
   width: 50px;
   background-color: rgb(22, 18, 39);
   color: rgb(247, 169, 26);
@@ -20,7 +21,6 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bolder;
   text-align: center;
-  /* box-sizing: border-box; */
   }
 
   .sideBarLinks:visited{
@@ -52,6 +52,7 @@
   }
   
   nav {
+    margin: 0;
     background-color: rgb(22, 18, 39);
     height: 100vh;
     width: 170px;
@@ -127,6 +128,11 @@ h3{
 }
 
 .contactSection{
+  padding: 0px;
+  position: absolute;
+  top: 150px;
+  right: 160px;
+  height: 35vh;
   display: grid;
   grid-template-rows: 33% 33% 33%;
   grid-template-columns: 30% 70%;
@@ -134,9 +140,9 @@ h3{
   border: 2px ridge rgb(32, 23, 73);
   background-color:rgb(228, 228, 228);
   padding: 30px;
-  margin: 10px;
   color: rgb(32, 23, 73);
-  text-align: right;
+  justify-items: center;
+  align-items: center;
   font-size: 18px;
   font-weight: bolder;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -150,11 +156,11 @@ h3{
   padding: 25px;
   margin: 10px;
   z-index: 2;
-  text-align: center;
+  
 }
 
 .gitA{
-  margin: auto;
+  color: rgb(32, 23, 73);
 }
 
 .linkedin{
@@ -164,8 +170,12 @@ h3{
   grid-column-end: 2;
   padding: 25px;
   margin: 10px;
-  text-align: center;
+  justify-content: left;
   z-index: 2;
+}
+
+.linkedA{
+  color:rgb(32, 23, 73);
 }
 
 .email{
@@ -179,11 +189,17 @@ h3{
   z-index: 2;
 }
 
+.emailA{
+  color: rgb(32, 23, 73);
+}
+
 #checkOutGit{
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 2;
   grid-column-end: 3;
+  text-align: left;
+  color: rgb(32, 23, 73);
 }
 
 #checkOutLinked{
@@ -191,6 +207,8 @@ h3{
   grid-row-end: 3;
   grid-column-start: 2;
   grid-column-end: 3;
+  text-align: left;
+  color: rgb(32, 23, 73);
 }
 
 #checkOutEmail{
@@ -198,6 +216,8 @@ h3{
   grid-row-end: 4;
   grid-column-start: 2;
   grid-column-end: 3;
+  text-align: left;
+  color: rgb(32, 23, 73);
 }
 
 .techstack{
@@ -231,24 +251,28 @@ h3{
   margin: 0 auto;
   padding: 0px;
   transition: transform .2s;
+  border: 2px solid rgb(32, 23, 73);
 }
 
 #archie{
   margin: 0 auto;
   padding: 0px;
   transition: transform .2s;
+  border: 2px solid rgb(32, 23, 73);
 }
 
 #corvette{
   margin: 0 auto;
   padding: 0px;
   transition: transform .2s;
+  border: 2px solid rgb(32, 23, 73);
 }
 
 #racetrack{
   margin: 0 auto;
   padding: 0px;
   transition: transform .2s;
+  border: 2px solid rgb(32, 23, 73);
 }
 
 #angel:hover{

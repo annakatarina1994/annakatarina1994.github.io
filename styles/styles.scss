@@ -327,7 +327,7 @@ body{
 .contactTitle{
   color: white;
   position: fixed;
-  top: 20px;
+  top: 40px;
   font-family: 'Roboto';
   font-weight: 2;
   font-size: 50px;
@@ -344,7 +344,7 @@ body{
 .techStackTitle{
   color: white;
   position: fixed;
-  top: 20px;
+  top: 40px;
   font-family: 'Roboto';
   font-weight: 2;
   font-size: 50px;
@@ -360,7 +360,7 @@ body{
 .projectsTitle{
   color: white;
   position: fixed;
-  top: 20px;
+  top: 40px;
   font-family: 'Roboto';
   font-weight: 2;
   font-size: 50px;
@@ -433,4 +433,8 @@ a:visited{
 
 .navLinks__contact{
   color: rgb(158, 82, 245);
+}
+
+.navLinks__aboutMe{
+  color: rgb(229, 245, 91);
 }

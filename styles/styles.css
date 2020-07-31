@@ -574,7 +574,7 @@ body {
 .contactTitle {
   color: white;
   position: fixed;
-  top: 20px;
+  top: 40px;
   font-family: 'Roboto';
   font-weight: 2;
   font-size: 50px;
@@ -595,7 +595,7 @@ body {
 .techStackTitle {
   color: white;
   position: fixed;
-  top: 20px;
+  top: 40px;
   font-family: 'Roboto';
   font-weight: 2;
   font-size: 50px;
@@ -616,7 +616,7 @@ body {
 .projectsTitle {
   color: white;
   position: fixed;
-  top: 20px;
+  top: 40px;
   font-family: 'Roboto';
   font-weight: 2;
   font-size: 50px;
@@ -707,5 +707,9 @@ a:visited {
 
 .navLinks__contact {
   color: #9e52f5;
+}
+
+.navLinks__aboutMe {
+  color: #e5f55b;
 }
 /*# sourceMappingURL=styles.css.map */

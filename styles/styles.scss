@@ -1,0 +1,323 @@
+$navPosition : -140px;
+$linkFontSize: 20px;
+$navButtonHeight: 80px;
+$navButtonWidth: 80px;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(./rainbowMandala.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline{
+  color: white;
+  position: fixed;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 2;
+  font-size: 50px;
+}
+
+.typewriter{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .1em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  // margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .05em; /* Adjust as needed */
+  animation: 
+    typing 2s steps(18, end),
+    blink-caret .75s step-end infinite;
+  
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 40% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: purple; }
+}
+
+.navContainer{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-btn{
+  background:rgb(245, 82, 245);
+  border: groove;
+  border-color:rgb(199, 64, 199) ;
+  border-radius: 50%;
+  position: absolute;
+  top: $navPosition;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: $navButtonWidth;
+  height: $navButtonHeight;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+  z-index: 4;
+}
+
+.menu-btn__burger{
+  width: 50px;
+  height: 6px;
+  background: black;
+  border-radius: 5px;
+  transition: all .5s ease-in-out;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after{
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 6px;
+  background: black;
+  border-radius: 5px;
+  transition: all .5s ease-in-out;
+}
+
+.menu-btn__burger::before{
+  transform: translateY(-16px);
+}
+
+.menu-btn__burger::after{
+  transform: translateY(16px);
+}
+
+/* ANIMATION */
+
+.menu-btn.open .menu-btn__burger{
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none;
+}
+
+.menu-btn.open .menu-btn__burger::before{
+  transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn.open .menu-btn__burger::after{
+  transform: rotate(-45deg) translate(35px, 35px);
+}
+
+.contact{
+  width: $navButtonWidth;
+  height: $navButtonHeight;
+  background:rgb(158, 82, 245);
+  border: groove;
+  border-color: rgb(109, 59, 167);
+  border-radius: 50%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-variant: small-caps;
+  font-weight: 500;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: $navPosition;
+  z-index: 3;
+}
+
+.contact.open{
+  animation-name: contactOpen;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.contact.close{
+  animation-name: contactClose;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes contactOpen {
+  from {left: 0px}
+  to {left:80px;}
+}
+
+@keyframes contactClose{
+  from {top: $navPosition; left:80px}
+  to {top: $navPosition; left: -40px}
+}
+
+.techStack{
+  width:$navButtonWidth;
+  height: $navButtonHeight;
+  background:rgb(92, 149, 255);
+  border: groove;
+  border-color: rgb(63, 108, 192);
+  border-radius: 50%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-variant: small-caps;
+  font-weight: 500;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: $navPosition;
+  z-index: 2;
+}
+
+.techStack.open{
+  animation-name: techStackOpen;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+  animation-delay: .3s;
+}
+
+.techStack.close{
+  animation-name: techStackClose;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes techStackOpen{
+  from {top: $navPosition; left: -40px}
+  to {top: -35px; left:25px;}
+}
+
+@keyframes techStackClose{
+  from {top: -35px; left:25px;}
+  to {top: $navPosition; left: -40px}
+}
+
+.projects{
+  width: $navButtonWidth;
+  height: $navButtonHeight;
+  background:rgb(92, 247, 100);
+  border: groove;
+  border-color: rgb(66, 182, 72);
+  border-radius: 50%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-variant: small-caps;
+  font-weight: 500;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: $navPosition;
+  z-index: 1;
+}
+
+.projects.open{
+  animation-name: projectsOpen;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+  animation-delay: .6s;
+}
+
+.projects.close{
+  animation-name: projectsClose;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes projectsOpen{
+  from {top: $navPosition; left: -40px}
+  to {top: -35px; left:-105px;}
+}
+
+@keyframes projectsClose{
+  from {top: -35px; left:-105px;}
+  to {top: $navPosition; left: -40px}
+}
+
+.aboutMe{
+  width:$navButtonWidth;
+  height: $navButtonHeight;
+  background:rgb(229, 245, 91);
+  border: groove;
+  border-color: rgb(169, 180, 67);
+  border-radius: 50%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-variant: small-caps;
+  font-weight: 500;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: $navPosition;
+  z-index: 0;
+}
+
+.aboutMe.open{
+  animation-name: aboutMeOpen;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+  animation-delay: .9s;
+}
+
+.aboutMe.close{
+  animation-name: aboutMeClose;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes aboutMeOpen{
+  from {top: $navPosition; left: -40px}
+  to {top: $navPosition; left:-160px;}
+}
+
+@keyframes aboutMeClose{
+  from {top: $navPosition; left:-160px;}
+  to {top: $navPosition; left: -40px}
+}
+
+// Link Styling
+
+#contactLink{
+  text-decoration: none;
+  color: black;
+  font-size: $linkFontSize;
+}
+
+#techStackLink{
+  text-decoration: none;
+  color: black;
+  font-size: $linkFontSize;
+}
+
+#projectsLink{
+  text-decoration: none;
+  color: black;
+  font-size: $linkFontSize;
+}
+
+#aboutMeLink{
+  text-decoration: none;
+  color: black;
+  font-size: $linkFontSize;
+}

@@ -2,29 +2,43 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./style.css">
-    <script src="https://kit.fontawesome.com/01727be7cf.js" crossorigin="anonymous"></script>
-    <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <title>Welcome!</title>
 </head>
 
 <body>
-    <nav>
-        <ul class="nav_links">
-            <li><a href=index.html class="sideBarLinks">Home</a></li><br /><br />
-            <li><a href=aboutme.html class="sideBarLinks">About</a></li><br /><br />
-            <!-- <li><a href=projects.html class="sideBarLinks">Projects</a></li><br /><br /> -->
-            <li><a href=techstack. class="sideBarLinks">Tech</a></li><br /><br />
-            <li><a href=photos.html class="sideBarLinks">Pics</a></li><br /><br />
-            <li><a href=contact.html class="sideBarLinks">Contact</a></li><br /><br />
-        </ul>
-    </nav>
+  <div class="container">
+    <h1 class="headline">Hello! My Name is Anna and I'm a <p class="typewriter">&nbsp;Software Developer</p>
+       </h1>
+       
+    
+    <div class="navContainer">
+      <div class="menu-btn">
+        <div class="menu-btn__burger">
+        </div>
+      </div>
 
-<h1>Anna Lizon</h1>
-<h3>Software Developer</h3>
+      <div class="contact">
+        <a href="./contact.html" id="contactLink">Contact</a>
+      </div>
 
+      <div class="techStack">
+        <a href="techstack.html" id="techStackLink">Tech<br> Stack</a>
+      </div>
+
+      <div class="projects">
+        <a href="projects.html" id="projectsLink">Projects</a>
+      </div>
+
+      <div class="aboutMe">
+        <a href="aboutme.html" id="aboutMeLink">About</a>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
 </body>
 
 </html>

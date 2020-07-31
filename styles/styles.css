@@ -204,7 +204,7 @@ body {
   border: groove;
   border-color: #6d3ba7;
   border-radius: 50%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Arial Narrow', Arial, sans-serif;
   font-variant: small-caps;
   font-weight: 500;
   color: black;
@@ -287,7 +287,7 @@ body {
   border: groove;
   border-color: #3f6cc0;
   border-radius: 50%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Arial Narrow', Arial, sans-serif;
   font-variant: small-caps;
   font-weight: 500;
   color: black;
@@ -376,7 +376,7 @@ body {
   border: groove;
   border-color: #42b648;
   border-radius: 50%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Arial Narrow', Arial, sans-serif;
   font-variant: small-caps;
   font-weight: 500;
   color: black;
@@ -465,7 +465,7 @@ body {
   border: groove;
   border-color: #a9b443;
   border-radius: 50%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Arial Narrow', Arial, sans-serif;
   font-variant: small-caps;
   font-weight: 500;
   color: black;
@@ -550,25 +550,25 @@ body {
 #contactLink {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 #techStackLink {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 #projectsLink {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 #aboutMeLink {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .contactTitle {

@@ -328,7 +328,7 @@ body{
   color: white;
   position: fixed;
   top: 40px;
-  font-family: 'Roboto';
+  font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;
   font-weight: 2;
   font-size: 50px;
 }
@@ -345,7 +345,7 @@ body{
   color: white;
   position: fixed;
   top: 40px;
-  font-family: 'Roboto';
+  font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;
   font-weight: 2;
   font-size: 50px;
 }
@@ -356,12 +356,22 @@ body{
   align-items: center;
 }
 
+.technologyStack{
+  text-align: center;
+  color: white;
+  font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;
+  width: 30%;
+  font-size: 20px;
+  position: fixed;
+  top: 140px;
+}
+
 //Projects Section
 .projectsTitle{
   color: white;
   position: fixed;
   top: 40px;
-  font-family: 'Roboto';
+  font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;
   font-weight: 2;
   font-size: 50px;
 }
@@ -385,7 +395,7 @@ body{
   color: white;
   position: fixed;
   top: 40px;
-  font-family: 'Roboto';
+  font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;
   font-weight: 2;
   font-size: 50px;
 }

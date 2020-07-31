@@ -36,24 +36,24 @@ body{
   justify-content: center;
   align-items: center;
   font-family: 'Roboto', sans-serif;
-  font-weight: 2;
+  font-weight: 50;
   font-size: 50px;
 }
 
 .typewriter{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .1em solid orange; /* The typwriter cursor */
+  border-right: .1em solid purple; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
-  // margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .05em; /* Adjust as needed */
   animation: 
-    typing 2s steps(18, end),
+    typing 2s steps(40, end),
     blink-caret .75s step-end infinite;
-  
+  animation-fill-mode: backwards;
+  animation-delay: 1.2s;
 }
 
 @keyframes typing {
-  from { width: 0 }
+  from { width: 0}
   to { width: 40% }
 }
 
@@ -320,4 +320,117 @@ body{
   text-decoration: none;
   color: black;
   font-size: $linkFontSize;
+}
+
+//Contact section
+
+.contactTitle{
+  color: white;
+  position: fixed;
+  top: 20px;
+  font-family: 'Roboto';
+  font-weight: 2;
+  font-size: 50px;
+}
+
+.contactContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//Tech Stack section
+
+.techStackTitle{
+  color: white;
+  position: fixed;
+  top: 20px;
+  font-family: 'Roboto';
+  font-weight: 2;
+  font-size: 50px;
+}
+
+.techStackContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//Projects Section
+.projectsTitle{
+  color: white;
+  position: fixed;
+  top: 20px;
+  font-family: 'Roboto';
+  font-weight: 2;
+  font-size: 50px;
+}
+
+.projectsContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//About Me Section
+
+.aboutMeContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.aboutMeTitle{
+  color: white;
+  position: fixed;
+  top: 40px;
+  font-family: 'Roboto';
+  font-weight: 2;
+  font-size: 50px;
+}
+
+.aboutMeStatement{
+  width: 50%;
+  color: white;
+  font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  position: fixed;
+  top: 130px;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  position: fixed;
+  top: 0px;
+}
+
+.navLinks{
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+  font-size: 18px;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+.navLinks__back{
+  color: rgb(245, 82, 245);
+}
+
+.navLinks__projects{
+  color: rgb(92, 247, 100);
+}
+
+.navLinks__techStack{
+  color: rgb(92, 149, 255);
+}
+
+.navLinks__contact{
+  color: rgb(158, 82, 245);
 }

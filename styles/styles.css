@@ -53,21 +53,25 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-family: 'Roboto', sans-serif;
-  font-weight: 2;
+  font-weight: 50;
   font-size: 50px;
 }
 
 .typewriter {
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
-  border-right: .1em solid orange;
+  border-right: .1em solid purple;
   /* The typwriter cursor */
   white-space: nowrap;
   /* Keeps the content on a single line */
   letter-spacing: .05em;
   /* Adjust as needed */
-  -webkit-animation: typing 2s steps(18, end), blink-caret 0.75s step-end infinite;
-          animation: typing 2s steps(18, end), blink-caret 0.75s step-end infinite;
+  -webkit-animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+          animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
 }
 
 @-webkit-keyframes typing {
@@ -565,5 +569,143 @@ body {
   text-decoration: none;
   color: black;
   font-size: 20px;
+}
+
+.contactTitle {
+  color: white;
+  position: fixed;
+  top: 20px;
+  font-family: 'Roboto';
+  font-weight: 2;
+  font-size: 50px;
+}
+
+.contactContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.techStackTitle {
+  color: white;
+  position: fixed;
+  top: 20px;
+  font-family: 'Roboto';
+  font-weight: 2;
+  font-size: 50px;
+}
+
+.techStackContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projectsTitle {
+  color: white;
+  position: fixed;
+  top: 20px;
+  font-family: 'Roboto';
+  font-weight: 2;
+  font-size: 50px;
+}
+
+.projectsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutMeContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutMeTitle {
+  color: white;
+  position: fixed;
+  top: 40px;
+  font-family: 'Roboto';
+  font-weight: 2;
+  font-size: 50px;
+}
+
+.aboutMeStatement {
+  width: 50%;
+  color: white;
+  font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  position: fixed;
+  top: 130px;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: white;
+  position: fixed;
+  top: 0px;
+}
+
+.navLinks {
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+  font-size: 18px;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.navLinks__back {
+  color: #f552f5;
+}
+
+.navLinks__projects {
+  color: #5cf764;
+}
+
+.navLinks__techStack {
+  color: #5c95ff;
+}
+
+.navLinks__contact {
+  color: #9e52f5;
 }
 /*# sourceMappingURL=styles.css.map */

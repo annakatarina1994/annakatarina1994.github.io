@@ -368,18 +368,43 @@ body{
 
 //Projects Section
 .projectsTitle{
-  color: white;
+  color: rgb(92, 247, 100);
   position: fixed;
   top: 40px;
   font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;
   font-weight: 2;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .projectsContainer{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.projectSection{
+  color: white;
+  font-size: 25px;
+  font-weight: 2;
+  font-variant: small-caps;
+  font-family: 'Roboto', 'Arial Narrow', Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.javaProjects{
+  padding: 7px;
+  position: fixed;
+  top: 160px;
+  border: 1px solid;
+}
+
+.javaScriptProjects{
+  padding: 7px;
+  position: fixed;
+  top: 240px;
+  border: 1px solid;
 }
 
 //About Me Section
@@ -408,6 +433,8 @@ body{
   position: fixed;
   top: 130px;
 }
+
+//General nav for all pages
 
 .navigation{
   display: flex;

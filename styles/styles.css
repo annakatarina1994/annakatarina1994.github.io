@@ -572,7 +572,7 @@ body {
 }
 
 .contactTitle {
-  color: white;
+  color: #9e52f5;
   position: fixed;
   top: 40px;
   font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;
@@ -593,7 +593,7 @@ body {
 }
 
 .techStackTitle {
-  color: white;
+  color: #5c95ff;
   position: fixed;
   top: 40px;
   font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;
@@ -669,11 +669,19 @@ body {
   border: 1px solid;
 }
 
+.javaProjects:hover {
+  cursor: pointer;
+}
+
 .javaScriptProjects {
   padding: 7px;
   position: fixed;
   top: 240px;
   border: 1px solid;
+}
+
+.javaScriptProjects:hover {
+  cursor: pointer;
 }
 
 .aboutMeContainer {
@@ -693,7 +701,7 @@ body {
 }
 
 .aboutMeTitle {
-  color: white;
+  color: #e5f55b;
   position: fixed;
   top: 40px;
   font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;

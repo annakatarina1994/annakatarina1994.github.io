@@ -325,7 +325,7 @@ body{
 //Contact section
 
 .contactTitle{
-  color: white;
+  color: rgb(158, 82, 245);
   position: fixed;
   top: 40px;
   font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;
@@ -342,7 +342,7 @@ body{
 //Tech Stack section
 
 .techStackTitle{
-  color: white;
+  color: rgb(92, 149, 255);
   position: fixed;
   top: 40px;
   font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;
@@ -400,11 +400,19 @@ body{
   border: 1px solid;
 }
 
+.javaProjects:hover{
+  cursor: pointer;
+}
+
 .javaScriptProjects{
   padding: 7px;
   position: fixed;
   top: 240px;
   border: 1px solid;
+}
+
+.javaScriptProjects:hover{
+  cursor: pointer;
 }
 
 //About Me Section
@@ -417,7 +425,7 @@ body{
 }
 
 .aboutMeTitle{
-  color: white;
+  color: rgb(229, 245, 91);
   position: fixed;
   top: 40px;
   font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;

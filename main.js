@@ -1,3 +1,5 @@
+//Hamburger Menu
+
 const menuBtn = document.querySelector('.menu-btn');
 const contactBtn = document.querySelector('.contact');
 const techStackBtn = document.querySelector('.techStack');
@@ -41,3 +43,8 @@ menuBtn.addEventListener('click', ()=>{
     menuOpen = false;
   }
 });
+
+//Projects Page
+const javaProjects = document.querySelector('.javaProjects');
+const javaScriptProjects = document.querySelector('.javaScriptProjects');
+

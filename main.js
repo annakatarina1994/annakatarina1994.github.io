@@ -48,3 +48,6 @@ menuBtn.addEventListener('click', ()=>{
 const javaProjects = document.querySelector('.javaProjects');
 const javaScriptProjects = document.querySelector('.javaScriptProjects');
 
+javaProjects.addEventListener('click', ()=>{
+  
+})

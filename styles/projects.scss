@@ -14,74 +14,6 @@ body{
   text-align: center;
 }
 
-.javaSpringContainer{
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.timeTo {
-  margin: $projectMargin;
-  padding: $projectPadding;
-  border: white solid 1px;
-  box-sizing: border-box;
-  width: $borderWidth;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.potatoReview {
-  margin: $projectMargin;
-  padding: $projectPadding;
-  border: white solid 1px;
-  box-sizing: border-box;
-  width: $borderWidth;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.carBlog {
-  margin: $projectMargin;
-  padding: $projectPadding;
-  border: white solid 1px;
-  box-sizing: border-box;
-  width: $borderWidth;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.virtualPets {
-  margin: $projectMargin;
-  padding: $projectPadding;
-  border: white solid 1px;
-  box-sizing: border-box;
-  width: $borderWidth;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.highStHospital {
-  margin: $projectMargin;
-  padding: $projectPadding;
-  border: white solid 1px;
-  box-sizing: border-box;
-  width: $borderWidth;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .projectDescriptions {
   font-family:'Roboto', 'Arial Narrow', Arial, Helvetica, sans-serif;
 }
@@ -96,4 +28,32 @@ a {
 
 img {
   width: 80%;
+}
+
+.javaSpringContainer{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.javaScriptContainer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectBox {
+  margin: $projectMargin;
+  padding: $projectPadding;
+  border: white solid 1px;
+  box-sizing: border-box;
+  width: $borderWidth;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

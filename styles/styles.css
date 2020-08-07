@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(./rainbowMandala.png);
+  background-image: url(./pics/rainbowMandala.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
@@ -59,13 +59,9 @@ body {
 
 .typewriter {
   overflow: hidden;
-  /* Ensures the content is not revealed until the animation */
   border-right: .1em solid purple;
-  /* The typwriter cursor */
   white-space: nowrap;
-  /* Keeps the content on a single line */
   letter-spacing: .05em;
-  /* Adjust as needed */
   -webkit-animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
           animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
   -webkit-animation-fill-mode: backwards;
@@ -663,6 +659,8 @@ body {
 }
 
 .javaProjects {
+  color: white;
+  text-decoration: none;
   padding: 7px;
   position: fixed;
   top: 160px;
@@ -675,6 +673,8 @@ body {
 }
 
 .javaScriptProjects {
+  color: white;
+  text-decoration: none;
   padding: 7px;
   position: fixed;
   top: 240px;

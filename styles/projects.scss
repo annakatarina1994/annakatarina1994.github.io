@@ -1,0 +1,29 @@
+body{
+  background-color: black;
+}
+
+.javaSpringContainer{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeTo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family:'Roboto', 'Arial Narrow', Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+img {
+  width: 40%;
+}

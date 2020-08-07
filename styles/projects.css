@@ -20,6 +20,12 @@ body {
 }
 
 .timeTo {
+  margin: 50px;
+  padding: 30px;
+  border: white solid 1px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,7 +41,100 @@ body {
           align-items: center;
 }
 
+.potatoReview {
+  margin: 50px;
+  padding: 30px;
+  border: white solid 1px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carBlog {
+  margin: 50px;
+  padding: 30px;
+  border: white solid 1px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.virtualPets {
+  margin: 50px;
+  padding: 30px;
+  border: white solid 1px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.highStHospital {
+  margin: 50px;
+  padding: 30px;
+  border: white solid 1px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projectDescriptions {
+  font-family: 'Roboto', 'Arial Narrow', Arial, Helvetica, sans-serif;
+}
+
 a {
+  padding: 15px;
   text-decoration: none;
   color: white;
   font-family: 'Roboto', 'Arial Narrow', Arial, Helvetica, sans-serif;
@@ -43,6 +142,6 @@ a {
 }
 
 img {
-  width: 40%;
+  width: 80%;
 }
 /*# sourceMappingURL=projects.css.map */

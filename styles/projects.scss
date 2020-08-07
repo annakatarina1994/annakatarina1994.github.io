@@ -6,6 +6,14 @@ body{
   background-color: black;
 }
 
+#pageTitle {
+  margin: 0px;
+  color: white;
+  font-family: 'Roboto', 'Arial Narrow', Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
 .javaSpringContainer{
   color: white;
   display: flex;
@@ -76,7 +84,6 @@ body{
 
 .projectDescriptions {
   font-family:'Roboto', 'Arial Narrow', Arial, Helvetica, sans-serif;
-  
 }
 
 a {

@@ -339,6 +339,24 @@ body{
   align-items: center;
 }
 
+.contactSection{
+  position: fixed;
+  top: 130px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.icons{
+  color: white; 
+}
+
+.iconDesc {
+  color: white;
+  font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;
+}
+
 //Tech Stack section
 
 .techStackTitle{
@@ -488,4 +506,10 @@ a:visited{
 
 .navLinks__aboutMe{
   color: rgb(229, 245, 91);
+}
+
+//Contact
+
+.fa-linkedin{
+  color: white;
 }

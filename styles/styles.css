@@ -588,6 +588,29 @@ body {
           align-items: center;
 }
 
+.contactSection {
+  position: fixed;
+  top: 130px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icons {
+  color: white;
+}
+
+.iconDesc {
+  color: white;
+  font-family: 'Roboto','Arial Narrow', Arial, Helvetica, sans-serif;
+}
+
 .techStackTitle {
   color: #5c95ff;
   position: fixed;
@@ -763,5 +786,9 @@ a:visited {
 
 .navLinks__aboutMe {
   color: #e5f55b;
+}
+
+.fa-linkedin {
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */
